@@ -5,8 +5,7 @@ import (
 )
 
 func main() {
-	expr := "2+2"
-	fmt.Println(expr)
+	expr := "7*8+2"
 	for _, ch := range expr {
 		fmt.Println(string(ch))
 	}
